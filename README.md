@@ -23,7 +23,7 @@ Currently, there is not a good way to login programmatically, so you will need t
 The base URL for the Minehut API is `https://api.minehut.com`. Whenever you want to make a request to an endpoint, you want to grab it's path and append it to the base URL. For example:
 
 ```
-https://api.minehut.com/server/honclick?byName=true
+https://api.minehut.com/server/boredcafe?byName=true
 https://api.minehut.com/file/5fd6bea356e73b13b37f2527/list//
 ```
 
