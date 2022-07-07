@@ -9,6 +9,10 @@ description: List ALL currently online servers.
 List ALL currently online servers.
 {% endswagger-description %}
 
+{% swagger-parameter in="header" name="authorization" type="string" %} Your Minehut token. {% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="x-session-id" type="string" %} Your Minehut session id. {% endswagger-parameter %}
+
 {% swagger-response status="200" description="" %}
 ```
 [{...}]
